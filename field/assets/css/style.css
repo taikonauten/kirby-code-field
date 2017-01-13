@@ -1,0 +1,46 @@
+
+.code-field-input {
+  display: none;
+}
+
+.code-field-editor-wrapper {
+  position: relative;
+  height: 15em;
+}
+
+.code-field-editor {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: scroll;
+  padding: 1em;
+  border-top: none;
+
+  text-align: left;
+	white-space: pre;
+  word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+  background: #f5f2f0;
+  text-shadow: 0 1px white;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+.code-field-editor:focus,
+.code-field-editor:active {
+  border-color: #dddddd;
+}
+
+.code-field-editor,
+.code-field-editor .token {
+  font-size: 15px;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
